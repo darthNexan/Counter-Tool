@@ -1,0 +1,10 @@
+NULL
+./resource/KarnaughMaps/K-Map_1.png
+./resource/KarnaughMaps/K-Map_2.png
+NULL
+NULL
+./resource/KarnaughMaps/K-Map_3.png
+./resource/KarnaughMaps/K-Map_4.png
+./resource/KarnaughMaps/K-Map_5.png
+./resource/KarnaughMaps/K-Map_6.png
+./resource/KarnaughMaps/K-Map_6.png

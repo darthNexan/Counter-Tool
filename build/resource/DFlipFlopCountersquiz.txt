@@ -1,0 +1,42 @@
+=========================================================
+null
+How many D Flip Flops would be needed for a 7-bit counter?
+*A) 7 D Flip Flops
+B) 4 D Flip Flops
+C) 1 D Flip Flops
+D) No D Flip Flop
+=========================================================
+null
+How many bits will be needed if you had to construct a synchronous counter with the sequence from 8-12 then repeat?
+A) 2-bits
+B) 8-bits
+*C) 4-bits
+D) 5-bits
+=========================================================
+null
+How do you determine the input functions (e.g. DA) in the state table?
+A) We XOR the values in each Present State and Next State (A, B, C)
+B) We use binary addition
+C) We pray to the heavens for the answer
+*D) We use the excitation table and use the Present State and Next State values
+==========================================================
+null
+How many AND gates do we need for the function DA = A’B’ + CB
+A) 4
+*B) 2
+C) 8
+D) 1
+============================================================
+null
+Suppose we want to design a synchronous counter with the sequence 0-4- 2-6- 5. What would be the functions DA, DB, and DC?
+A) DA = B’C + AC; DB = A’BC + AB’C; DC = DA
+B) DA = BC’ + A’C’; DB = AB’C + AB’C’; DC = 1
+C) DA = BC’ + A’C’; DB = AB’C’ + A’BC’; DC = ABC’
+D) None of the above
+============================================================
+null
+Design a synchronous counter with the sequence 0, 4, 7 and repeat using D flip flops.
+-
+-
+-
+-

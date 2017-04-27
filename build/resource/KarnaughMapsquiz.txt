@@ -1,0 +1,70 @@
+=======================================================
+null
+How many squares would a Karnaugh Map need with using the function:       ABCD’ + B’C’D’A + BCD + AC’D
+A. 4
+B. 13
+*C. 16
+D. 8
+=======================================================
+./resource/KarnaughMaps/KarnaughQuizIMG0.png
+Which of the following is CORRECT based on the Karnaugh Map below?
+A. ABC + BC’
+B. AB’C + B’ + B’C’
+*C. B’C’ + A’ + B
+D. None of the above
+========================================================
+null
+What form is the function (AB) + (CD) + (B’C’) in?
+*A. Sum of Products (SOP)
+B. Product of Sums (POS)
+C. Quine McCluskey
+D. None of the Above
+=========================================================
+null
+Karnaugh map is used to:
+A. Reduce the electronic circuits used.
+B. To map the given Boolean logic function.
+C. To minimize the terms in a Boolean expression.
+D. To maximize the terms of a given a Boolean expression
+==========================================================
+null
+What does the acronym POS stand for?
+A. Person of Solitude
+B. Power of Speed
+*C. Product of Sums
+D. Principle of Sums
+=========================================================
+./resource/KarnaughMaps/KarnaughQuizIMG1.png
+How many groupings is best suited to simplify the function for the Karnaugh map?
+*A. 4
+B. 6
+C. 5
+D. 2
+===========================================================
+./resource/KarnaughMaps/KarnaughQuizIMG2.png
+The Karnaugh map below cannot be grouped. Is this statement true or false?
+*A. True
+B. False
+-
+-
+===========================================================
+null
+What does the acronym SOP stand for?
+A. Sum of Powers
+B. Sun of Products
+C. Sun of Parents
+*D. Sum of Products
+============================================================
+./resource/KarnaughMaps/KarnaughQuizIMG3.png
+The Karnaugh Map is correctly laid out. Is this statement true or false?
+A. True
+*B. False
+-
+-
+=============================================================
+./resource/KarnaughMaps/KarnaughQuizIMG1.png
+Which of the following is CORRECT based on the Karnaugh Map?
+*A. A’BC’ + AC + AB’D +B’CD’
+B. ABC’ + B’ + C’D’ + A’B’
+C. A’B’C’ + AB + BCD + A’D’
+D. None of the above

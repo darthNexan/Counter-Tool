@@ -1,0 +1,70 @@
+=========================================================
+./resource/LogicGates/LogicGateQuizIMG0.png
+Which logic gate has the truth table as shown at the side?
+A. OR gate
+B. NAND gate
+*C. XOR gate
+D. XNOR gate
+==========================================================
+./resource/LogicGates/LogicGateQuizIMG1.png
+Which logic gate has the truth table as shown at the side?
+A. NOR gate
+B. NAND gate
+C. XNOR gate
+*D. None of the above
+==========================================================
+null
+Which gate is known as the inverse gate?
+A. AND
+B. NOR
+C. XNOR
+D. NOT
+==========================================================
+null
+Which logic gate requires ALL inputs to be high (1), to give an output of 1?
+A. AND gate
+B. OR gate
+C. NAND gate
+D. NOR gate
+===========================================================
+./resource/LogicGates/LogicGateQuizIMG2.png
+Which logic gate is this circuit equivalent to?
+*A. NOR gate
+B. OR gate
+C. NAND gate
+D. XOR gate
+===========================================================
+./resource/LogicGates/LogicGateQuizIMG3.png
+What output will the circuit give?
+A. 1
+*B. 0
+-
+-
+===========================================================
+./resource/LogicGates/LogicGateQuizIMG4.png
+Will the circuit give an output of 1?
+A. Yes
+*B. No
+-
+-
+============================================================
+./resource/LogicGates/LogicGateQuizIMG5.png
+What is the name of the logic gate labelled with an x?
+A. XOR gate
+*B. XNOR gate
+C. NAND gate
+D. NOR gate
+============================================================
+./resource/LogicGates/LogicGateQuizIMG6.png
+ Which logic gate does the at the side circuit represent?
+A. NOR gate
+B. NAND gate
+*C. AND gate
+D. XOR gate
+============================================================
+./resource/LogicGates/LogicGateQuizIMG7.png
+When will the circuit at the side give an output of 1?
+A. A low (0) and B low (0)
+B. A low (0) and B high (1)
+C. A high (1) and B low (0)
+*D. A high (1) and B high (1)

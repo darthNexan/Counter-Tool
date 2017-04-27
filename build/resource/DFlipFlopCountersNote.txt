@@ -1,0 +1,78 @@
+Previously, we used J K Flip Flops to create this synchronous counter. Now, we 
+look at the use of the D Flip Flop in implementing the counter. 
+(See section on D Flip Flops for recap)
+We will be using the sequence 0-1-2-3-4-5-6-7 as used in the JK Flip Flop example. 
+N.B. This sequence falls within the 3-bit range since its max value’s binary 
+representation is 111.
+In designing a counter using any type of flip flop we need to make use of the 
+flip flop’s excitation table. 
+
+
+
+
+
+
+
+We now seek to develop the state table for the counter. Using the variables, A, 
+B, and C to represent each bit, we set up the table in terms of Present 
+State and Next State. Each value in the sequence needs to be represented in 
+the table. So, from present to next we go from 0(000) to 1(001), then from 
+1(001) to 2(010) and so on. After we use these present and next states 
+the D input functions for each bit (each bit represented by A, B, and C). 
+Next we use the present and next state values and the excitation table 
+to determine the input functions (For example, we use the present and next 
+state A value to determine the input function value for DA. The combination 
+0 0 in the excitation table results in DA = 0).
+
+
+
+
+
+From this point, we seek to simplify the input functions DA, DB and DC using 
+Karnaugh Maps (See section on Karnaugh Maps for recap).
+
+DA = AB’ + AC’ + A’BC
+
+
+
+
+
+
+
+
+
+
+
+From this point, we seek to simplify the input functions DA, DB and DC using 
+Karnaugh Maps (See section on Karnaugh Maps for recap).
+
+DB = B’C + BC’
+
+
+
+
+
+
+
+
+
+
+
+From this point, we seek to simplify the input functions DA, DB and DC using 
+Karnaugh Maps (See section on Karnaugh Maps for recap).
+
+DC = B’C’ + BC
+
+
+
+
+
+
+
+
+
+
+
+Now we move on to building the logic circuit. Since the sequence is for a 
+3-bit counter, we need three D flip flops. Based on the functions DA, DB, 
+and DC we need 2 OR gates, 5 AND gates, and a XOR gate.
