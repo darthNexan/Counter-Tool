@@ -1,0 +1,9 @@
+NULL
+./resource/SynchronousCounter/SC_JK_00.png
+./resource/SynchronousCounter/SC_JK_01.png
+./resource/SynchronousCounter/SC_JK_02.png
+./resource/SynchronousCounter/SC_JK_03.png
+./resource/SynchronousCounter/SC_JK_04.png
+./resource/SynchronousCounter/SC_JK_05.png
+./resource/SynchronousCounter/SC_JK_06.png
+./resource/SynchronousCounter/SC_JK_07.gif

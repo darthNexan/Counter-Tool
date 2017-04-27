@@ -1,0 +1,10 @@
+NULL
+./resource/SynchronousCounter/SC_T_00.png
+./resource/SynchronousCounter/SC_T_01.png
+./resource/SynchronousCounter/SC_T_01.png
+./resource/SynchronousCounter/SC_T_02.png
+./resource/SynchronousCounter/SC_T_03.png
+./resource/SynchronousCounter/SC_T_04.png
+./resource/SynchronousCounter/SC_T_05.png
+./resource/SynchronousCounter/SC_T_06.png
+./resource/SynchronousCounter/SC_T_07.png

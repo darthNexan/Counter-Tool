@@ -1,0 +1,8 @@
+Welcome to the Synchronous counter tutorial for Computer Architecture COMP2105
+A synchronous counter is a sequential circuit which consists of an interconnected series of flip-flops in which all the flip-flop outputs change state at the same instant, by a single clock pulse.
+During this tutorial you will learn:
+	1. To make simple circuits using logic gates
+	2. To simplify boolean expressions using Karnaugh maps
+	3. About the types of Flip-Flops and their Characteristics
+	4. To design a synchronous counter using Flip-Flops
+	

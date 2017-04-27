@@ -1,0 +1,142 @@
+Designing a T flip flop Synchronous Counter
+
+In this example, we will be designing a synchronous counter using T flip flops,
+that also counts in the following sequence, 0-1-2-3-4-5-6-7 and repeats.
+
+
+
+
+
+
+
+
+
+
+
+Step 1: Determine the least amount of bits that needs to be used.
+To develop this synchronous counter, the excitation table must be used. 
+It is used to help develop the transition state table for our synchronous counter.
+Before designing our state table however, we must first calculate the 
+least number of bits we need to use.
+To determine the smallest number of bits we need to use, is given by the formula: 
+2n-1 = Last count
+In our example, the last count is 7. So 2n-1 =7. Therefore, n is equal to 3, 
+which means we need to use at least 3 bits.
+
+
+
+
+
+
+Step 2: Design the state table
+Since we are going to be using 3 bits, we can represent each bit with A, B and C. 
+So, the present state will be Qa, Qb and Qc and our next state will be Qa+1, 
+Qb+1 and Qc+1. 
+The present state fields should then be filled out from top to bottom beginning 
+with our first count to our last count in binary. Note well: Even those that are 
+not in the sequence are filled in.
+
+
+
+
+
+
+
+
+The next state fields will then be filled out from top to bottom as well. 
+However, it is filled out by looking at the current present state and placing 
+its next state in that position. E.g. at present state 0 (000) its next 
+state will be 1(001), at present state 1(001) its next state will be 2(010), 
+etc. Note well: The question stated that after the last sequence it repeats. 
+Therefore, at present state 7(111) its next state will be 0(000). The state 
+table should be looking like table 2 below.
+
+
+
+
+
+
+
+
+Now it is time to represent the other three bits (Ta, Tb & Tc). This is 
+where the excitation table comes into play. You first start off looking at 
+the first value of Qa and the first value of Qa+1. In this example, the first 
+value of Qa is 0 and the first value of Qa+1 is also 0. We then look at our 
+excitation table and see that a 0 for Q(n) which is Qa and a 0 for Q(n+1) which 
+is Qa+1, T will be 0. This process is then repeated for all the values of Qa 
+and Qa+1. The State table should then be looking as figure 3, as shown on the 
+side.
+
+
+
+
+
+
+
+This process is also repeated using Ta, Tb & Tc as well. The state table 
+should then be completed (as shown in Figure 4). 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Step 3: Determining the minimum sum of products of all the inputs, for each of 
+the flip flops.
+This step is where your knowledge of Karnaugh’s map comes into play. A Karnaugh’s 
+map needs to be plotted from every Ta, Tb & Tc. To do this, you will plot every 
+value of Ta, Tb & Tc with the corresponding present state value. The results 
+are shown at the side.
+
+
+
+
+
+
+
+
+
+Step 3: Determining the minimum sum of products of all the inputs, for each of 
+the flip flops.
+This step is where your knowledge of Karnaugh’s map comes into play. A Karnaugh’s 
+map needs to be plotted from every Ta, Tb & Tc. To do this, you will plot every 
+value of Ta, Tb & Tc with the corresponding present state value. The results 
+are shown at the side.
+
+
+
+
+
+
+
+
+
+Step 3: Determining the minimum sum of products of all the inputs, for each of 
+the flip flops.
+This step is where your knowledge of Karnaugh’s map comes into play. A Karnaugh’s 
+map needs to be plotted from every Ta, Tb & Tc. To do this, you will plot every 
+value of Ta, Tb & Tc with the corresponding present state value. The results 
+are shown at the side.
+
+
+
+
+
+
+
+
+
+Step 4: Build the circuit
+As mentioned in the beginning, when designing a synchronous counter, every 
+bit would need a flip flop. For example, a 3-bit counter will need three 
+flip flops, a 4-bit counter will need four flip flops, etc. In this example, 
+we have a 3-bit counter, so therefore we will need to use three flip flops.
+Now it’s time to build the circuit, based on the inputs that we found from 
+Karnaugh’s map. Your circuit should look like figure 5 on the side.

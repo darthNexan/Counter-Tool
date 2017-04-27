@@ -1,0 +1,42 @@
+=============================================
+null
+How many JK flip flops will be needed for a 5-bit counter?
+A) 3 JK flip flops
+B) 4 JK flip flops
+*C) 5 JK flip flops
+D) 6 JK flip flops
+==============================================
+null
+How many bits will be needed if you had to construct a synchronous counter with the sequence from 0-15 then repeat?
+A) 3 bits
+*B) 4 bits
+C) 5 bits
+D) None of the above
+================================================
+null
+How is a JK flip flop made to toggle?
+A) J = 0, K = 0
+B) J = 1, K = 0
+C) J = 0, K = 1
+D) J = 1, K = 1
+===============================================
+null
+The next state of B(t) will be:
+A) B(t-1)
+*B) B(t+1)
+C) B(t-2)
+D) B(t+2)
+===============================================
+null
+What will be the flip flop functions of Jc and Kc respectively if a synchronous  counter had to be constructed using JK flip flops that counts in the following sequence and then repeated, 0-1-2-3-5-6?
+A) Jc = B and Kc = C 
+B) Jc = B' and Kc = A'
+C) Jc = A' and Kc = B'
+D) Jc = BC and Kc = C
+===============================================
+null
+Design a synchronous counter that counts 0,4,7 and repeat using JK flip flops.
+-
+-
+-
+- 

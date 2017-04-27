@@ -1,0 +1,6 @@
+./resource/SynchronousCounter/SC_D_00.png
+./resource/SynchronousCounter/SC_D_01.png
+./resource/SynchronousCounter/SC_D_02.png
+./resource/SynchronousCounter/SC_D_03.png
+./resource/SynchronousCounter/SC_D_04.png
+./resource/SynchronousCounter/SC_D_05.gif

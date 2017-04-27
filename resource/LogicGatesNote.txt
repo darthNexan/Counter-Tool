@@ -1,0 +1,258 @@
+Logic gates
+
+Objectives:
+>	Know what logic gates are and their importance
+>	Able to identify logic gates symbols, algebraic expression and truth table
+>	Know how to trace logic gate circuits and determine their outputs
+
+
+
+
+
+
+
+
+
+Logics gates are the basic components used in designing digital circuits. All 
+logic gates have an input and an output. In digital electronics, the inputs 
+may either be high or low. High is represented by the binary digit 1 and low 
+is represented by the binary digit 0, it’s the same for the output as well. 
+There are seven basic logic gates in digital electronics, which are: OR gates, 
+NOR gates, AND gates, NAND gates, EX-OR gates, EX-NOR gates and NOT gates. 
+Logic gates are used to construct burglar alarms, doorbells, traffic lights 
+and many other devices.
+
+
+
+
+
+
+
+Not Gate 
+
+Boolean Expression: 
+F = A'
+
+NOT gate: This is a single input gate, that gives an output that is the inverse 
+of the input.
+
+
+
+
+
+
+
+
+OR Gate
+
+Boolean Expression
+F = A + B
+
+This gate gives an output if at least one input is high.
+
+
+
+
+
+
+
+
+
+NOR Gate
+
+Boolean Expression:
+F = (A + B)'
+
+This gate is the inverse of the OR gate. Will only give an output, if all 
+inputs are low. (Opposite of the OR gate)
+
+
+
+
+
+
+
+
+AND gate 
+
+Boolean Expression:
+F = AB
+
+This gate only gives an output when all inputs are on.
+
+
+
+
+
+
+
+
+
+NAND Gate 
+
+Boolean Expression:
+F = (AB)'
+
+This gate only gives an output when all inputs are on.
+
+
+
+
+
+
+
+
+
+XOR Gate
+
+Boolean Expression:
+F = A'B + AB'
+
+XOR(exclusive OR) will only be high if only one of it's inputs are high
+
+
+
+
+
+
+
+
+
+XNOR
+
+Boolean Expression:
+F = A'B' + AB
+
+This gate is the opposite of the XOR gate. Will only give an output if all 
+inputs are on or if all inputs are off (Opposite of the XOR gate).
+
+
+
+
+
+
+
+
+AND gate example
+In the diagram, when one of the inputs was turned on, the LED at the 
+end of the circuit did not turn on. This is because AND gates require all 
+inputs to be on (1) to give an output of 1. 
+
+
+
+
+
+
+
+
+
+
+
+
+In the diagram, AND gate #1 has two inputs of 1, which will give an output 
+of 1, unlike AND gate #2 which only has one input of 1, which will give 
+an output of 0. Since AND gate #2 gave an output of 0, this will cause AND 
+gate #3 to have an input of 0, which gives it an output of 0. AND gate #3 
+requires two inputs to be on, to give an output of 1. Hence the LED is off.
+
+
+
+
+
+
+
+
+
+
+In figure 3 above, unlike the previous diagrams, the LED is on. This is because 
+all the inputs are on and the entire circuit is made up of AND gates, which 
+requires all inputs to be on, to give an output of 1.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The truth table of the previous circuit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OR Gate Example
+In the diagram, the circuit is built with OR gates only. OR gates require at 
+least one input to be on to give an output of 1. In this circuit, all the inputs 
+are off, hence the LED being off.
+
+
+
+
+
+
+
+
+
+
+
+In figure 5 above, D has an input of 1 to OR gate #2, which gives an output of 1. 
+This output is used as an input to OR gate #3 which is why the LED is on. In fact,
+once at least one of the inputs are on, this will cause the LED to light.
+
+
+
+
+
+
+
+
+
+
+
+
+The truth table of the previous circuit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In the diagram above, there is a NOT gate connected to an AND gate. NOT gates 
+give an output that is the inverse of the input. The input A which is 0, passes 
+through the NOT gate, changing its value from a 0 to a 1. This 1 is then used 
+as an input to the AND gate. AND gates give an output of 1 when all the inputs 
+are high (1), hence an output of 1 and the LED lighting.
+
+
+
+
+
+
+
+
+
+
+The diagrams show the connection of an AND gate and a NOT gate. This circuit 
+represents a NAND gate. It will give an output once all inputs are not on. 
+That’s right, a combination of logic gates can represent a single logic gate.

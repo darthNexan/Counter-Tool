@@ -1,0 +1,21 @@
+===========================================================================================
+null
+How many spaces would there be on a Karnaugh map if there are 4 minterms in the function?
+*a. 16
+b. 4
+c. 8
+d. 32
+============================================================================================ 
+null
+How many spaces would there be on a Karnaugh map if there are 3 minterms in the function?
+a. 16
+b. 4
+*c. 8
+d. 32
+*Format* Each questions is preceded by a blank line or one where some character spans the entire line. This is for readability. So this line will be ignored
+The first line is the location of a particular resource eg. picture or gif
+The second line is the question 
+a -> The third
+b ->fourth
+c ->fifth 
+*d ->and sixth lines are the responses the line with the correct answer is preceded by an asterisk.. therefore d is the correct answer 

@@ -1,0 +1,127 @@
+What is a Flip Flop?
+A flip flop, otherwise known as a bi-stable gates, is a circuit that 
+is used to store state information. It can be manipulated to be in one 
+of two states until it receives an input signal called a trigger. When 
+the trigger is received, the flip flop outputs the new state based on 
+rules that satisfy a state change. We will be looking at three types of 
+Flip Flops D, J-K and T flip-flop. 
+
+
+
+
+
+
+
+
+D flip-flop
+
+What is a D Flip-Flop?
+A D flip-flop, D stands for data, tracks the input. It makes transitions 
+which match those of the input D. This flip-flop stores the value that is 
+on the data line. It can be thought of as a basic memory cell, it stores 
+the value on the data line with the advantage of the output being synchronized 
+to a clock. This flip-flop can only change output values when the clock is at 
+a positive edge hence it is considered a positive edge-triggered flip flop. 
+
+
+
+
+
+
+Other uses of D Flip-Flops?
+D flip-flops form the basis of shift registers that are used in many electronic 
+devices. Many logic synthesis tool use only D flip flop or D latch. D flip 
+flops are also used in finite state machines. They can be made from a set/reset 
+flip-flop by tying the set to the reset through an inverter. The results may be 
+clocked.
+
+
+
+
+
+
+
+
+
+Characteristic Table
+Characteristics table define the behavior of the truth table. The following is 
+the characteristics table for the D flip-flop, it has 3 columns. The first 
+column is the value of D, a control input. The second column is the current 
+state, that is the current value being output by Q. The third column is the 
+next state, the value of Q at the next positive edge. It’s labelled with Q and 
+the superscript, +. 
+
+
+
+
+
+
+
+
+The D flip flop has two possible values. When D is 0, the 
+flip flop does a reset, the output Q is set to 0. When D is 1, the flip flop 
+does a set, the output Q is set to 1. 
+
+
+
+
+
+
+
+
+
+
+
+
+J-K Flip Flop
+As seen in the diagram, the J-K flip flop is made up of two 3-input AND Gates. 
+The inputs are the J (set) and K (reset) inputs, the clock input and the 
+feedback received from the Q and Q’ outputs.  Due to the structure of this flip 
+flop, where both the inputs J and K are essentially interlocked, only one of the 
+two inputs, J (set) or K (reset) can exhibit an effect on the circuit at once. 
+
+
+
+
+
+
+
+
+
+When the circuit is set, the J input is inhibited by the “0” status of Q’ from 
+through the lower NAND gate. If the circuit is reset, the K input is inhibited 
+by the “0” status of Q through the upper NAND gate. The case where both J and K 
+are 1, a set state inhibits inputs J so that the flip flop acts as if J = 0 while 
+K = 1 when in fact both are actually 1. On the other hand, when the circuit 
+receives the next trigger or pulse, the outputs will toggle from set to reset. 
+Now, the reset state will inhibit the K input so that the flip flop functions 
+as if J is 1 and K is 0 when both are actually 1.
+
+
+
+
+
+
+
+Note: If both J and K inputs are HIGH, that satisfies the “toggle” where 
+the current state is changed or “toggled” to the next state. If the J and K 
+inputs are LOW then “no change” occurs.
+
+
+
+
+
+
+
+
+
+
+
+
+T flip flop
+
+The T flip-flop is also known as the toggle flip-flop, when the input T = 1 
+the output will toggle or change on every clock edge. It can be used for binary
+counters, frequency dividers and binary addition. It can be made from a J-K
+flip-flop by tying both its inputs to high.
+

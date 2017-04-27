@@ -1,0 +1,98 @@
+==========================================================
+Null
+Which of the following represents the "no change" condition of a J-k flip flop?
+*A J = 0  K = 0
+B J = 0  K = 1
+C J = 1  K = 0
+D J = 1  K = 1
+==========================================================
+Null
+Which of the following represents the "toggle" condition of a J-k flip flop?
+A J = 1  K = 0
+B J = 0  K = 1
+C J = 0  K = 0
+*D J = 1  K = 1
+==========================================================
+Null
+Which of the following represents the "set" condition of a J-K flip flop?
+*A J = 1  K = 0
+B J = 1  K = 1
+C J = 0  K = 0
+D J = 0  K = 1
+==========================================================
+Null
+The clock input prevents both input terminals from being active at the same time.
+A True
+*B False
+-
+-
+==========================================================
+Null
+What D value changes the value of Q=0 to Q+= 1 in the excitation table
+A 0
+*B 1
+C both
+D None
+===========================================================
+Null
+The characteristic table of a D Flip Flop has 4 columns.
+A True 
+*B False
+-
+-
+===========================================================
+Null
+The D Flip-flop is a negative edge-triggered Flip Flop.
+A True
+*B False
+-
+-
+==========================================================
+Null
+What does the ‘D’ in D flip-flop stand for
+A Dynamic
+B Destructive
+*C Data
+D Deallocating
+===========================================================
+Null
+Which of the following are NOT other uses of D flip-flops?
+A D flip-flops form the basis of shift registers that are used in many electronic devices.
+B Many logic synthesis tool use only D flip flop or D latch. 
+C D flip flops are also used in finite state machines.
+*D Optimize other flip flops
+===========================================================
+Null
+The T in T Flip Flop stands for toggle.
+*A True
+B False
+-
+-
+===========================================================
+Null
+If T = 1 and Q = 0, what will be the value of Q(t+1)?
+A 0
+*B 1
+-
+-
+===========================================================
+Null
+If T = 0 and Q = 1, what will be the value of Q(t+1)?
+*A 1
+B 0
+-
+-
+==========================================================
+Null
+If T = 1 and Q(t+1) = 0, what is Q?
+*A 1
+B 0
+-
+-
+==========================================================
+Null
+If T = 0 and Q(t+1) = 0, what is Q?
+A 1
+*B 0
+-
+-

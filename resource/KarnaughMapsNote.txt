@@ -1,0 +1,144 @@
+What is a Karnaugh Map or K-Map?
+A Karnaugh map is a graphical method of simplifying a Boolean function 
+(usually with 3 or more inputs). It is widely considered a faster way of 
+simplification as compared to other simplification techniques such as the 
+Quine McCluskey method for example. The map consists of several squares, 
+each representing a different combination of the variables of a Boolean function.
+
+
+
+
+
+
+
+
+
+How do we use it?
+First, we need to identify the number of inputs which deter the number of 
+squares needed. The number of squares can be determined by the equation 
+2^n where n is the number of inputs. For example, if you had a Boolean function 
+AB + BC’ + C, we can see the function has three inputs A, B and C. Since the 
+number of inputs are three then the number of squares must be 2^3 which equals 
+8 squares.
+
+
+
+
+
+
+
+
+Next, we lay out all possible combinations on the grid. Each square will have a 
+label. The labels will be in binary and are based on the possible combinations 
+for each input. Below is an example using the previous function AB+BC’+C.
+Note: Each combination goes from one to next with only one bit change. From 00 
+to 01 one bit change on the right most bit from 01 to 11 one bit change on the 
+left most bit and from 11 to 10 one bit change on the rightmost bit. This 
+covers all the possible combinations for A and B since A and B has 22 possible 
+combinations.
+
+
+
+
+
+
+
+The next requires one to understand the concept of Sum of Products (SOP) and 
+Product of Sums (POS). 
+
+Say we have the function F = (ABC) + (ABC’) + (BC’A’)
+
+This function falls under the SOP because each expression in brackets are products 
+and are finally summed together to make the function a Sum of Products. In SOP 
+the input’s value is always 1 unless the value is complimented where then it is 
+represented by a 0.
+
+
+
+
+
+
+Say we have a function F = (A+B+C) . (A’+B+C) . (A’+B’+C’)
+
+This function is considered a POS function because each expression in brackets 
+are sums and are finally are joined together by the product operator to make 
+the function a Product of Sums. As it relates to input values, POS is the opposite
+of SOP where the input’s value is always 0 unless the value is complimented where 
+then it is represented by a 1.
+
+
+
+
+
+
+
+
+With this information, we can fill the grid with 1s as the function in the 
+example is of SOP form. 
+
+(AB)+(BC’)+(C)
+
+In the first bracket, inputs A and B are represented by 1s. We take this 
+realization and try to identify all possible cases where A and B are both ones 
+at the same time and we highlight these positions by placing 1s on the grid for 
+the identified combinations.
+
+
+
+
+
+
+We do the same for the next bracketed term (BC’). Input B has a value of 1 and 
+input C’ has a value of 0. Thus, we get
+
+
+
+
+
+
+
+
+
+
+
+
+
+We do the same for the next bracketed term (C). Input C has the value of 1. Thus, 
+we get
+
+
+
+
+
+
+
+
+
+
+
+
+
+At this point we go through a process of grouping. There are some rules to the grouping 
+and they are as follows:
+Do’s
+1. The number of terms grouped must be to a power of 2.
+2. Terms can only be grouped to their adjacent cells.
+3. Always look to group as many terms as possible in one grouping.
+Don’ts
+1. Terms cannot be grouped diagonally.
+Note: Terms that exist but cannot be group are treated as its own expression.
+
+Let’s group the terms in the Karnaugh Map.
+
+
+
+
+There was only one needed grouping for this expression based on the rules identified 
+above. 
+
+From this point, we look to finish off and simplify the expression. We do this by 
+highlighting the consistent input values (i.e. no change in value from 1 to 0 or 0 to 1) 
+in the groupings.  In the X grouping, the input C consistently stays a 1 thus our first 
+term in the simplified expression is C. In the Y grouping, the input B is consistently a 
+1 so B is our next term in out simplified expression. Therefore we get, C+B as our new 
+simplified expression.

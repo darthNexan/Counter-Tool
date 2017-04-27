@@ -1,0 +1,42 @@
+====================================================
+null
+Given the hypothetical sequence 0,1,2,3,4,5,6,7,8,9 which repeats next state of 9 will be:
+*A) 0000
+B) 0101
+C) 7
+D) 6
+=====================================================
+null
+“Don’t-care” conditions in a T flip-flop state table are represented by,
+A) 1’s
+B) 0’s
+*C) There are none.
+D) Ok Google!
+=====================================================
+null
+When using Karnaugh maps to minimize inputs which values do we use?
+*A) Present state.
+B) Next state.
+C) Both.
+D) None.
+=======================================================
+null
+What is the recommended method for determining the minimum inputs for each flip-flop?
+A) Quine-McKluskey Tables
+*B) Karnaugh Maps
+C) Boolean Algebra rules
+D) Do not minimize
+=======================================================
+null
+What is the first step in designing a T flip-flop synchronous counter?
+A) Ask Google.
+B) Build Circuit.
+*C) Determine the least number of bits to be used.
+D) Design State Table.
+=======================================================
+null
+Design a synchronous counter with the sequence 0,4,7 and repeat using T Flip Flops.
+-
+-
+-
+-
